@@ -11,7 +11,6 @@ const cartSchema = mongoose.Schema(
     quantity: { type : Number , require : true , default:1 },
     image: [{ img: { type: String, require: true } }],
     userId : { type : String , require : true },
-    userName : { type : String , require : true },
   },
   { versionKey: false }
 );
